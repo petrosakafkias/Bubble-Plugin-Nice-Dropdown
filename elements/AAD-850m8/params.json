@@ -1,0 +1,124 @@
+{
+    "add_hover_pressed": false,
+    "add_is_visible": true,
+    "autobinding_value": "text",
+    "category": "input forms",
+    "default_dim": {
+        "height": 40,
+        "width": 100
+    },
+    "display": "Nice dropdown",
+    "events": {
+        "AAP": {
+            "caption": "Value changed ",
+            "name": "change"
+        }
+    },
+    "fields": {
+        "AAG": {
+            "caption": "DROPDOWN STYLE SETTINGS ----------------",
+            "editor": "Label",
+            "name": "list_style",
+            "rank": 4
+        },
+        "AAH": {
+            "caption": "background color",
+            "default_val": "rgba(157, 207, 227, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "bgColor",
+            "rank": 5
+        },
+        "AAI": {
+            "caption": "Hover Background color",
+            "default_val": "rgba(51, 181, 229, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "hoverBg",
+            "rank": 6
+        },
+        "AAJ": {
+            "caption": "roundness",
+            "default_val": 0,
+            "editor": "StaticNumber",
+            "in_style": true,
+            "name": "roundness",
+            "rank": 8
+        },
+        "AAK": {
+            "caption": "Type of choices",
+            "editor": "custom_type",
+            "name": "type",
+            "rank": 0
+        },
+        "AAM": {
+            "caption": "options",
+            "editor": "DynamicValue",
+            "field_list": true,
+            "field_type_restriction": "text_image_file",
+            "is_list": true,
+            "name": "options",
+            "rank": 1,
+            "value": "custom_data_AAK"
+        },
+        "AAO": {
+            "caption": "option caption",
+            "editor": "custom_field_AAK",
+            "field_list": false,
+            "field_type_restriction": "text_image_file",
+            "name": "caption",
+            "rank": 2,
+            "value": "custom_data_AAK"
+        },
+        "AAQ": {
+            "caption": "Default value",
+            "editor": "DynamicValue",
+            "name": "default",
+            "optional": true,
+            "rank": 3,
+            "value": "custom_data_AAK"
+        },
+        "AAR": {
+            "caption": "padding",
+            "default_val": 0,
+            "editor": "StaticNumber",
+            "name": "padding",
+            "rank": 9
+        },
+        "AAS": {
+            "caption": "option roundness",
+            "default_val": 0,
+            "editor": "StaticNumber",
+            "name": "option_roundness",
+            "rank": 10
+        },
+        "AAT": {
+            "caption": "Hover font color",
+            "default_val": "rgba(255, 255, 255, 1)",
+            "editor": "Color",
+            "name": "hoverColor",
+            "rank": 7
+        }
+    },
+    "icon": "ion-android-list",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": false,
+        "resizable": true
+    },
+    "states": {
+        "AAN": {
+            "caption": "value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "value",
+            "value": "custom_data_AAK"
+        }
+    },
+    "support_autobinding": true
+}

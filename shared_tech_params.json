@@ -1,0 +1,20 @@
+{
+    "assets": {
+        "AAC": {
+            "name": "dropdown jquery ",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1648493514724x282266272681894080/jquery.nice-select.min.js"
+        },
+        "AAU": {
+            "name": "v2",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1657998487216x740298535996867800/nice-dropdown.umd.js"
+        },
+        "AAV": {
+            "name": "v1.1.3",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1658000357888x897624133936649700/nice-dropdown.umd.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 2,
+        "use_jquery": true
+    }
+}

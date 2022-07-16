@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "productivity",
+        "2": "technical",
+        "3": "data (things)"
+    },
+    "demo_page": "https://pmst-bmc.bubbleapps.io/nice_dropdown",
+    "description": "This plugin add a fully customizable drop down element instead of the default dropdown element of bubble to be work on all browsers\n\nSTYLE CUSTOMIZATION SUPPORTED \nBackground color \ndropdown list hover color \ntext color \nborder \nand more...\n\n** Support dynamic data with caption and default value \n\n\nLIVE DEMO \nhttps://pmst-bmc.bubbleapps.io/nice_dropdown\n\nFOR ISSUES AND MORE DISCUSSIONS \nhttps://forum.bubble.io/t/new-free-plugin-fully-customizable-dropdown-list/199610?u=momen\n\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1648493312028x815179040162839800/down-arrow.png",
+    "license": "open_source",
+    "link": "https://forum.bubble.io/t/new-free-plugin-fully-customizable-dropdown-list/199610?u=momen",
+    "name": "Nice Dropdown",
+    "plugin_instructions": "just install the plugin and add nice dropdown element to your page then add your options "
+}
